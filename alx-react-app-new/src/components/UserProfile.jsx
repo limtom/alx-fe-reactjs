@@ -8,7 +8,7 @@ function UserProfile(props) {
         borderRadius: "30px",
       }}
     >
-      <h2 style={{ color: "teal" }}>{props.name}</h2>
+      <h2 style={{ color: "blue" }}>{props.name}</h2>
       <p>
         Age: <span style={{ fontWeight: "bold" }}>{props.age}</span>
       </p>
