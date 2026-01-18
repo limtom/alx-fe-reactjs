@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   const style = {
     display: "flex",
-    listStyle: "none",
-    gap: "20px",
+    alignItems: "center",
+    justifyContent: "space-around",
+    backgroundColor: "teal",
   };
   return (
     <nav style={style}>

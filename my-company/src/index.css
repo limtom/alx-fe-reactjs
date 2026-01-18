@@ -9,12 +9,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .navbar-link {
   display: flex;
   list-style: none;
