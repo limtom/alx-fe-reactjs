@@ -1,8 +1,13 @@
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
+  const style = {
+    display: "flex",
+    listStyle: "none",
+    gap: "20px",
+  };
   return (
-    <nav className="navbar">
+    <nav style={style}>
       <img src="./vite.svg" alt="Vite-logo" />
       <ul className="navbar-link">
         <NavLink to="/">
