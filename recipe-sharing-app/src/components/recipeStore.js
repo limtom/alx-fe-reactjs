@@ -8,7 +8,7 @@ const recipeStore = (set) => ({
     set((state) => ({ recipes: [...state.recipes, recipe] }));
   },
 
-  setRecipe: (recipes) => {
+  setRecipes: (recipes) => {
     set({ recipes });
   },
 });
