@@ -17,6 +17,12 @@ function EditRecipeForm({ id }) {
     }
   }, [id]);
 
+  function handleUpdateRecipe(e) {
+    e.preventDefault();
+    updateRecipe(id, { title, description });
+    console.log({ title, description });
+  }
+
   return (
     <div>
       <form

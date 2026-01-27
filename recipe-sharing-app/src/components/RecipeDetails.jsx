@@ -19,12 +19,6 @@ function RecipeDetails() {
     setEdit((edit) => !edit);
   }
 
-  function handleUpdateRecipe(e) {
-    e.preventDefault();
-    updateRecipe(id, { title, description });
-    console.log({ title, description });
-  }
-
   return (
     <div className="w-1/2 mt-5 mx-auto flex flex-col items-center gap-5">
       <div>
