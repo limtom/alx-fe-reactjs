@@ -26,7 +26,7 @@ function EditRecipeForm({ id }) {
   return (
     <div>
       <form
-        onSubmit={(event) => handleUpdateRecipe(e)}
+        onSubmit={(event) => handleUpdateRecipe(event)}
         className="flex flex-col justify-center gap-3 mt-5 bg-red-300 p-5"
       >
         <h3 className="font-bold text-lg">Edit Recipe</h3>
