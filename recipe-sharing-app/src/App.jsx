@@ -1,42 +1,13 @@
-// App.jsx
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  createBrowserRouter,
-  RouterProvider,
-  Outlet,
-} from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import RecipeDetails, {
-  loader as recipeLoader,
-} from "./components/RecipeDetails";
-import Layout from "./components/Layout";
-import "./App.css";
-import ErrorPage from "./components/ErrorPage";
-
-// Create router with loader
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: ":recipeId",
-        element: <RecipeDetails />,
-        loader: recipeLoader,
-      },
-    ],
-  },
-]);
+import AddRecipeForm from "./components/AddRecipeForm";
+import RecipeList from "./components/RecipeList";
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <div className="container flex items-center justify-center w-full flex-col pt-4">
+      <AddRecipeForm />
+      <RecipeList />
+    </div>
+  );
 }
 
 export default App;
