@@ -17,8 +17,8 @@ function EditRecipeForm({ id }) {
     }
   }, [id]);
 
-  function handleUpdateRecipe(e) {
-    e.preventDefault();
+  function handleUpdateRecipe(event) {
+    event.preventDefault();
     updateRecipe(id, { title, description });
     console.log({ title, description });
   }
@@ -26,7 +26,7 @@ function EditRecipeForm({ id }) {
   return (
     <div>
       <form
-        onSubmit={(e) => handleUpdateRecipe(e)}
+        onSubmit={(event) => handleUpdateRecipe(e)}
         className="flex flex-col justify-center gap-3 mt-5 bg-red-300 p-5"
       >
         <h3 className="font-bold text-lg">Edit Recipe</h3>
