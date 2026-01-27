@@ -1,13 +1,30 @@
-import AddRecipeForm from "./components/AddRecipeForm";
-import RecipeList from "./components/RecipeList";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+
+import RootLayout from "./Layout/RootLayout";
+import RecipeList from "../src/components/RecipeList";
+import Home from "../src/components/Home";
+import RecipeDetails from "./components/RecipeDetails";
+import RecipeLayout from "./layout/RecipeLayout";
 
 function App() {
-  return (
-    <div className="container flex items-center justify-center w-full flex-col pt-4">
-      <AddRecipeForm />
-      <RecipeList />
-    </div>
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />
+        <Route path="recipes" element={<RecipeLayout />}>
+          <Route index element={<RecipeList />} />
+          <Route path=":id" element={<RecipeDetails />} />
+        </Route>
+      </Route>,
+    ),
   );
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;

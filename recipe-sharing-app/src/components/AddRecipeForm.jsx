@@ -16,20 +16,20 @@ function AddRecipeForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-1/2 flex flex-col justify-center"
+      className="w-1/2 flex flex-col justify-center gap-3 mt-5"
     >
       <input
         type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Title"
-        className="border mb-4 p-2"
+        className="border mb-4 p-2 mt-4"
       />
       <textarea
         value={description}
         onChange={(e) => setDescription(e.target.value)}
         placeholder="Description"
-        className="border mb-4 p-2"
+        className="border mb-4 p-2 mt-4"
         rows={4}
       />
       <button
