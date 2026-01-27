@@ -5,6 +5,8 @@ function EditRecipeForm({ id }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
+  const updateRecipe = useRecipeStore((state) => state.updateRecipe);
+
   useEffect(() => {
     if (id) {
       const foundRecipe = useRecipeStore

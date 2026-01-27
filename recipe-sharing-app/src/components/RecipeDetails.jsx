@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useRecipeStore } from "./recipeStore";
 import { useState } from "react";
 import EditRecipeForm from "./EditRecipeForm";
+import DeleteRecipeButton from "./DeleteRecipeButton";
 
 function RecipeDetails() {
   const [edit, setEdit] = useState(false);
@@ -12,10 +13,7 @@ function RecipeDetails() {
     state.recipes.find((recipe) => recipe.id === Number(id)),
   );
 
-  const deleteRecipe = useRecipeStore((state) => state.deleteRecipe);
-  const updateRecipe = useRecipeStore((state) => state.updateRecipe);
-
-  function handleEdit(recipe) {
+  function handleEdit() {
     setEdit((edit) => !edit);
   }
 
@@ -37,14 +35,9 @@ function RecipeDetails() {
           >
             &larr; Go back
           </button>
-          <span
-            className="border rounded p-1 cursor-pointer"
-            onClick={() => deleteRecipe(id)}
-          >
-            &#128465;
-          </span>
         </div>
-        {edit ? <EditRecipeForm id={id} /> : ""}
+        {edit ? <EditRecipeForm id={id} /> : <DeleteRecipeButton />}
+
         {/* Render EditRecipeForm and DeleteRecipeButton here */}
       </div>
     </div>
