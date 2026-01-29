@@ -18,17 +18,17 @@ const recipeStore = (set) => ({
     set((state) => ({
       recipes: state.recipes.filter((recipe) => recipe.id !== id),
     }));
-    console.log("delete");
   },
 
-  updateRecipe: (id, updatedRecipe) =>
+  updateRecipe: (id, updates) => {
     set((state) => ({
       recipes: state.recipes.map((recipe) =>
-        recipe.id === id ? { ...recipe, ...updatedRecipe } : recipe,
+        recipe.id === id ? { ...recipe, ...updates } : recipe,
       ),
-    })),
+    }));
+  },
 });
 
 export const useRecipeStore = create(
-  devtools(persist(recipeStore, { name: "recipe" })),
+  devtools(persist(recipeStore, { name: "recipes" })),
 );

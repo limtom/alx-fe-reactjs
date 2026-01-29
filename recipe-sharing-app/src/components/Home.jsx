@@ -9,19 +9,23 @@ function Home() {
     <Fragment>
       <AddRecipeForm />
 
-      <div className="mt-5 mx-auto flex flex-col items-center gap-5">
-        <h2 className="text-base text-left font-bold item">All recipe</h2>
-        {recipes.map((recipe) => (
-          <Link
-            to={`recipes/${recipe.id}`}
-            key={recipe.id}
-            className="w-1/2 bg-amber-400 mt-3 p-6"
-          >
-            <h3 className="text-base font-bold mb-1">{recipe.title}</h3>
-            <p className="text-sm line-clamp-2">{recipe.description}</p>
-          </Link>
-        ))}
-      </div>
+      {recipes.length === 0 ? (
+        <p>No recipes, add new recipes</p>
+      ) : (
+        <div className="mt-5 mx-auto flex flex-col items-center gap-5">
+          <h2 className="text-base text-left font-bold item">All recipe</h2>
+          {recipes.map((recipe) => (
+            <Link
+              to={`recipes/${recipe.id}`}
+              key={recipe.id}
+              className="w-1/2 bg-amber-400 mt-3 p-6"
+            >
+              <h3 className="text-base font-bold mb-1">{recipe.title}</h3>
+              <p className="text-sm line-clamp-2">{recipe.description}</p>
+            </Link>
+          ))}
+        </div>
+      )}
     </Fragment>
   );
 }

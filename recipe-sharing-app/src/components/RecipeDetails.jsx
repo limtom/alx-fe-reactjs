@@ -29,14 +29,16 @@ function RecipeDetails() {
           >
             &#9998;
           </span>
+
           <button
             onClick={() => navigate("/recipes")}
             className="cursor-pointer border py-1 px-2 rounded-md"
           >
             &larr; Go back
           </button>
+          <DeleteRecipeButton id={id} />
         </div>
-        {edit ? <EditRecipeForm id={id} /> : <DeleteRecipeButton />}
+        {edit ? <EditRecipeForm id={id} /> : ""}
 
         {/* Render EditRecipeForm and DeleteRecipeButton here */}
       </div>
