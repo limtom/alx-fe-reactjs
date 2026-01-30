@@ -4,7 +4,6 @@ import { useRecipeStore } from "./recipeStore";
 function DeleteRecipeButton({ id }) {
   const navigate = useNavigate();
   const deleteRecipe = useRecipeStore((state) => state.deleteRecipe);
-  const recipes = useRecipeStore((state) => state.recipes);
 
   function handleDelete() {
     const toDelete = confirm("Are you sure you want to delete");
