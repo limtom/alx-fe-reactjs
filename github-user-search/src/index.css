@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+/* Import Tailwind directives */
+@import "tailwindcss/preflight";
+@tailwind utilities;
