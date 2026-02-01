@@ -29,7 +29,7 @@ async function advancedSearch({
   username,
   language,
   location,
-  minRepo,
+  minRepos,
   minFollowers,
 } = {}) {
   let query = "";
@@ -52,9 +52,9 @@ async function advancedSearch({
   }
 
   // Add min repos filter if provided (optional)
-  if (minRepo) {
+  if (minRepos) {
     if (query) query += " ";
-    query += `repos:>=${minRepo}`;
+    query += `repos:>=${minRepos}`;
   }
 
   // Add min followers filter if provided (optional)
