@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import RootLayout from "./Layout/RootLayout";
-import GithubSearch from "./components/GithubSearch";
+import GithubSearch from "./components/Search";
 import Profile from "./components/Profile";
 
 function App() {
