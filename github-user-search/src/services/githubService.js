@@ -3,6 +3,8 @@ import axios from "axios";
 
 const apiKey = import.meta.env.VITE_APP_GITHUB_API_KEY;
 
+// https://api.github.com//search/users?q
+
 const api = axios.create({
   baseURL: "https://api.github.com/",
   headers: {
