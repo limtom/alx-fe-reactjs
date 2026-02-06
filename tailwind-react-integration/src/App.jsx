@@ -1,5 +1,11 @@
+import UserProfile from "./components/UserProfile";
+
 function App() {
-  return <div className="text-3xl">Hello from tailwind and React</div>;
+  return (
+    <div className="text-3xl">
+      <UserProfile />
+    </div>
+  );
 }
 
 export default App;
