@@ -3,7 +3,7 @@ import Header from "./Header";
 import RecipeCard from "./RecipeCard";
 import recipe from "./data.json";
 
-function Homepage() {
+function HomePage() {
   const [recipes, setRecipes] = useState(recipe);
   return (
     <Fragment>
@@ -19,4 +19,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default HomePage;
