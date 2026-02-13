@@ -6,7 +6,51 @@
     "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400&h=300&fit=crop",
     "prepTime": "20 mins",
     "servings": 4,
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or guanciale, diced",
+      "3 large eggs",
+      "100g Pecorino Romano cheese, grated",
+      "50g Parmesan cheese, grated",
+      "Freshly ground black pepper",
+      "Salt to taste"
+    ],
+    "instructions": [
+      {
+        "heading": "Boil the Pasta",
+        "detail": "Bring a large pot of generously salted water to a rolling boil. Add the spaghetti and cook according to package instructions until al dente, usually about 8-10 minutes. The salted water is essential for flavoring the pasta from within."
+      },
+      {
+        "heading": "Cook the Pancetta",
+        "detail": "While the pasta cooks, heat a large skillet over medium heat. Add the diced pancetta and cook until crispy and golden brown, about 5-7 minutes. The rendered fat will form the flavorful base of your sauce. Remove from heat and set aside."
+      },
+      {
+        "heading": "Prepare the Egg Mixture",
+        "detail": "In a medium bowl, whisk together the eggs, grated Pecorino Romano, grated Parmesan, and a generous amount of freshly ground black pepper. The cheese should be finely grated to ensure it melts smoothly into the hot pasta."
+      },
+      {
+        "heading": "Combine and Create the Sauce",
+        "detail": "Drain the cooked pasta, reserving about 1/2 cup of the starchy pasta water. Working quickly while everything is hot, add the drained spaghetti to the skillet with the crispy pancetta. Toss to combine, then remove the skillet from heat completely."
+      },
+      {
+        "heading": "Add the Egg Mixture",
+        "detail": "Pour the egg and cheese mixture over the hot pasta and toss vigorously and continuously. The residual heat will cook the eggs gently, creating a creamy sauce without scrambling them. Add reserved pasta water a little at a time until you reach a silky, smooth consistency that coats each strand beautifully."
+      },
+      {
+        "heading": "Serve Immediately",
+        "detail": "Divide the carbonara among warm bowls immediately while it's at its creamiest. Top with an extra sprinkle of Pecorino Romano and a final crack of fresh black pepper. The pasta waits for no one - serve right away before the sauce sets."
+      }
+    ],
+    "chefTip": "Never add cream to carbonara! Authentic Italian carbonara relies on the emulsification of eggs, cheese, and pasta water to create its signature creamy texture. For the best results, ensure all your ingredients are at room temperature before starting, and work quickly when combining - the key is to cook the eggs with residual heat, not direct heat. If you're nervous about scrambling the eggs, try tempering them by slowly adding a spoonful of hot pasta water while whisking before combining with the pasta.",
+    "nutrition": {
+      "calories": 685,
+      "protein": "28g",
+      "carbs": "72g",
+      "fat": "31g",
+      "fiber": "3g",
+      "sodium": "890mg"
+    }
   },
   {
     "id": 2,
@@ -15,7 +59,56 @@
     "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&h=300&fit=crop",
     "prepTime": "45 mins",
     "servings": 6,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "ingredients": [
+      "800g boneless chicken thighs, cut into chunks",
+      "1 cup plain yogurt",
+      "2 tbsp lemon juice",
+      "2 tbsp garam masala",
+      "2 tsp cumin powder",
+      "2 tbsp ginger-garlic paste",
+      "2 large onions, finely chopped",
+      "400g canned tomatoes, pureed",
+      "1 cup heavy cream",
+      "4 tbsp butter",
+      "Fresh cilantro for garnish",
+      "Salt to taste"
+    ],
+    "instructions": [
+      {
+        "heading": "Marinate the Chicken",
+        "detail": "In a large bowl, combine yogurt, lemon juice, 1 tablespoon garam masala, cumin powder, and ginger-garlic paste. Add chicken chunks and coat thoroughly. Cover and refrigerate for at least 1 hour, or ideally overnight. This yogurt marinade tenderizes the chicken and infuses it with deep aromatic flavors while the acidity helps the spices penetrate the meat."
+      },
+      {
+        "heading": "Cook the Chicken",
+        "detail": "Preheat your oven to 400°F (200°C). Arrange marinated chicken pieces on a baking sheet in a single layer. Bake for 15-20 minutes until the chicken is cooked through and has slight charring at the edges. Alternatively, you can grill the chicken on a skewer for a more authentic charred flavor that adds smokiness to the final dish."
+      },
+      {
+        "heading": "Prepare the Masala Base",
+        "detail": "In a large, heavy-bottomed pan, melt the butter over medium heat. Add finely chopped onions and sauté until they turn golden brown and caramelized, about 8-10 minutes. This slow caramelization builds the sweet, deep foundation of your curry that balances the spices beautifully."
+      },
+      {
+        "heading": "Create the Tomato Gravy",
+        "detail": "Add the tomato puree and remaining 1 tablespoon garam masala to the caramelized onions. Stir well and let it simmer for 10 minutes, allowing the tomatoes to cook down and the spices to bloom in the fat. The gravy will thicken and deepen in color as the raw tomato smell disappears."
+      },
+      {
+        "heading": "Finish the Curry",
+        "detail": "Pour in the heavy cream and stir until the gravy becomes smooth and velvety. Add the cooked chicken pieces along with any juices from the baking sheet. Simmer gently for another 10 minutes, allowing the chicken to absorb the flavors of the rich, creamy tomato sauce. Adjust salt to taste at this stage."
+      },
+      {
+        "heading": "Garnish and Serve",
+        "detail": "Remove from heat and garnish generously with fresh chopped cilantro. The bright, herbaceous cilantro provides a fresh contrast to the rich, creamy curry. Serve hot with warm naan bread, steamed basmati rice, or both for a complete and satisfying meal."
+      }
+    ],
+    "chefTip": "For restaurant-quality chicken tikka masala, try smoking it at home using a traditional method. After cooking the curry, place a small metal bowl or cup in the center of the pan. Heat a small piece of charcoal until red-hot, place it in the bowl, and immediately pour a teaspoon of ghee or oil over it. Cover the pan tightly with a lid and let it smoke for 5 minutes. This 'dhungar' method infuses the entire dish with an incredible smoky flavor that elevates it to another level.",
+    "nutrition": {
+      "calories": 520,
+      "protein": "32g",
+      "carbs": "14g",
+      "fat": "38g",
+      "fiber": "3g",
+      "sodium": "720mg"
+    }
   },
   {
     "id": 3,
@@ -24,7 +117,47 @@
     "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=300&fit=crop",
     "prepTime": "10 mins",
     "servings": 2,
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 thick slices sourdough bread",
+      "2 ripe avocados",
+      "1 tbsp lemon juice",
+      "Red pepper flakes to taste",
+      "2 tbsp extra virgin olive oil",
+      "Salt and black pepper to taste",
+      "Optional toppings: poached egg, cherry tomatoes, microgreens"
+    ],
+    "instructions": [
+      {
+        "heading": "Toast the Bread",
+        "detail": "Toast the sourdough slices until they are golden brown and crispy on the outside while still slightly chewy inside. A good toast provides the perfect crunchy contrast to the creamy avocado and prevents the bread from becoming soggy. You can use a toaster, oven, or skillet with a little butter for extra flavor."
+      },
+      {
+        "heading": "Prepare the Avocado",
+        "detail": "Cut the avocados in half lengthwise, twist to separate, and remove the pits. Scoop the flesh into a medium bowl. Add lemon juice, salt, and pepper. The lemon juice not only adds brightness but also prevents the avocado from browning too quickly. Mash with a fork to your desired consistency - chunky for texture or smooth for a spread-like finish."
+      },
+      {
+        "heading": "Assemble the Toast",
+        "detail": "Divide the mashed avocado evenly between the two toast slices, spreading it generously to the edges. A thick layer ensures every bite is creamy and satisfying. Use the back of a fork to create decorative swirls or ridges if desired."
+      },
+      {
+        "heading": "Add the Finishing Touches",
+        "detail": "Drizzle with extra virgin olive oil for richness and sprinkle with red pepper flakes for heat and visual appeal. The olive oil adds a fruity, peppery note while the red pepper flakes provide a gentle warmth that complements the cool, creamy avocado perfectly."
+      },
+      {
+        "heading": "Garnish and Serve",
+        "detail": "Add any optional toppings like a perfectly poached egg for extra protein, halved cherry tomatoes for acidity, or microgreens for freshness and color. Serve immediately while the toast is still warm and crispy for the best texture and flavor experience."
+      }
+    ],
+    "chefTip": "Take your avocado toast to the next level by adding texture and flavor layers. Try sprinkling everything bagel seasoning, toasted sesame seeds, or crushed pistachios on top for crunch. A pinch of flaky sea salt like Maldon right before serving makes a huge difference. For an umami boost, add a dash of soy sauce or nutritional yeast to the mashed avocado. Remember that avocados should yield to gentle pressure when ripe - if they're too soft, they'll be brown inside.",
+    "nutrition": {
+      "calories": 385,
+      "protein": "8g",
+      "carbs": "32g",
+      "fat": "26g",
+      "fiber": "11g",
+      "sodium": "420mg"
+    }
   },
   {
     "id": 4,
@@ -33,7 +166,56 @@
     "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
     "prepTime": "30 mins",
     "servings": 4,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "ingredients": [
+      "800g ground beef (80/20)",
+      "4 brioche burger buns",
+      "4 slices cheddar cheese",
+      "4 leaves lettuce",
+      "2 tomatoes, sliced",
+      "1 red onion, sliced",
+      "Salt and black pepper to taste",
+      "For secret sauce: 1/2 cup mayo, 2 tbsp ketchup, 1 tbsp pickle relish, 1 tsp vinegar"
+    ],
+    "instructions": [
+      {
+        "heading": "Make the Secret Sauce",
+        "detail": "In a small bowl, combine mayonnaise, ketchup, pickle relish, and vinegar. Stir until well blended and smooth. This tangy, creamy sauce brings all the burger elements together with its perfect balance of sweetness from the ketchup, tang from the relish, and richness from the mayo. Refrigerate until needed to allow flavors to meld."
+      },
+      {
+        "heading": "Form the Patties",
+        "detail": "Divide the ground beef into 4 equal portions (about 200g each). Gently form into patties slightly larger than your buns, as they will shrink during cooking. Make a slight indentation in the center of each patty with your thumb to prevent them from puffing up into a dome shape. Handle the meat as little as possible for the juiciest result."
+      },
+      {
+        "heading": "Season the Patties",
+        "detail": "Generously season both sides of each patty with salt and freshly ground black pepper. Season just before cooking, not in advance, as salt can draw out moisture and affect the texture of the meat. The high heat will create a beautiful crust that locks in the juices."
+      },
+      {
+        "heading": "Cook the Burgers",
+        "detail": "Heat a grill, griddle, or large skillet over high heat until smoking hot. Place the patties on the hot surface and cook without moving them for 3-4 minutes. Flip once and cook for another 3-4 minutes for medium doneness. The first side develops a delicious crust that you don't want to disturb."
+      },
+      {
+        "heading": "Add the Cheese",
+        "detail": "During the last minute of cooking, place a slice of cheddar cheese on each patty. Cover the pan briefly or close the grill lid to help the cheese melt evenly. The cheese should be perfectly melted and slightly dripping over the edges of the patty for that classic burger experience."
+      },
+      {
+        "heading": "Toast the Buns",
+        "detail": "While the patties rest briefly, lightly toast the buns on the grill or in a separate pan until golden brown. Toasting adds texture and prevents the buns from becoming soggy from the sauce and meat juices. The warm, buttery brioche should be soft inside with a slight crunch outside."
+      },
+      {
+        "heading": "Assemble the Burgers",
+        "detail": "Spread a generous amount of secret sauce on the bottom bun. Layer with crisp lettuce, tomato slices, and red onion. Place the cheesy patty on top, then add the top bun. The order matters - lettuce protects the bun from moisture while the sauce provides flavor in every bite. Serve immediately with your favorite sides."
+      }
+    ],
+    "chefTip": "The secret to an unforgettable burger lies in the meat-to-fat ratio and handling. Always use 80/20 ground beef (80% lean, 20% fat) - the fat is essential for flavor and juiciness. Never press down on the patties while cooking; you're squeezing out those precious juices. For the perfect crust, make sure your cooking surface is screaming hot, and resist the urge to flip more than once. Let the patties rest for 5 minutes after cooking to allow juices to redistribute.",
+    "nutrition": {
+      "calories": 650,
+      "protein": "35g",
+      "carbs": "28g",
+      "fat": "44g",
+      "fiber": "2g",
+      "sodium": "980mg"
+    }
   },
   {
     "id": 5,
@@ -42,7 +224,48 @@
     "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=400&h=300&fit=crop",
     "prepTime": "15 mins",
     "servings": 4,
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 heads romaine lettuce, chopped",
+      "1 cup croutons",
+      "1/2 cup grated Parmesan cheese",
+      "For dressing: 2 anchovy fillets, 1 garlic clove, 1 egg yolk, 2 tbsp lemon juice, 1 tsp Dijon mustard, 1/2 cup olive oil, salt and pepper"
+    ],
+    "instructions": [
+      {
+        "heading": "Prepare the Dressing Base",
+        "detail": "On a cutting board, mash the anchovy fillets and garlic clove together using the side of a knife or a fork until they form a smooth paste. This ensures the bold, savory flavors are evenly distributed throughout the dressing rather than having unpleasant chunks of anchovy or garlic."
+      },
+      {
+        "heading": "Emulsify the Dressing",
+        "detail": "In a medium bowl, whisk together the anchovy-garlic paste, egg yolk, lemon juice, and Dijon mustard until well combined. While whisking continuously, slowly drizzle in the olive oil in a thin, steady stream. The constant whisking creates a stable emulsion, resulting in a thick, creamy dressing that coats the lettuce beautifully without separating."
+      },
+      {
+        "heading": "Season the Dressing",
+        "detail": "Season the dressing with salt and freshly ground black pepper to taste. Remember that anchovies and Parmesan are already salty, so start with a small amount and adjust as needed. The dressing should be bold, tangy, and savory - the hallmark of a classic Caesar. Set aside while you prepare the salad."
+      },
+      {
+        "heading": "Prepare the Lettuce",
+        "detail": "Wash and thoroughly dry the romaine lettuce leaves. Any water left on the leaves will dilute the dressing and prevent it from clinging properly. Tear or chop the lettuce into bite-sized pieces, discarding the tough ends. The romaine should be crisp and cold for the best texture."
+      },
+      {
+        "heading": "Toss the Salad",
+        "detail": "Place the chopped romaine in a large bowl. Drizzle with about half of the dressing and toss gently but thoroughly to coat every leaf. Add more dressing as needed - you want each piece lightly coated, not drowning. The goal is a delicate, even coating that enhances rather than overwhelms the lettuce."
+      },
+      {
+        "heading": "Add the Finishing Touches",
+        "detail": "Add the crunchy croutons and most of the grated Parmesan cheese to the dressed lettuce. Toss once more very gently to distribute. The croutons should remain crisp, so avoid over-tossing. Top with the remaining Parmesan cheese and an extra crack of black pepper. Serve immediately before the croutons soften."
+      }
+    ],
+    "chefTip": "For the most authentic Caesar salad experience, make your own croutons from day-old bread. Tear (don't cut) sourdough or French bread into irregular chunks, toss with olive oil, minced garlic, salt, and pepper, then bake at 375°F until golden and crisp. The irregular shapes and rough edges catch more dressing and provide better texture. If you're concerned about using raw egg yolk in the dressing, you can substitute with 2 tablespoons of mayonnaise for a similar creamy texture and emulsification.",
+    "nutrition": {
+      "calories": 310,
+      "protein": "9g",
+      "carbs": "12g",
+      "fat": "25g",
+      "fiber": "3g",
+      "sodium": "540mg"
+    }
   },
   {
     "id": 6,
@@ -51,7 +274,60 @@
     "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop",
     "prepTime": "25 mins",
     "servings": 6,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "ingredients": [
+      "200g dark chocolate (70% cocoa)",
+      "200g unsalted butter",
+      "4 large eggs",
+      "4 egg yolks",
+      "150g powdered sugar",
+      "100g all-purpose flour",
+      "Pinch of salt",
+      "Butter and cocoa powder for ramekins"
+    ],
+    "instructions": [
+      {
+        "heading": "Prepare the Ramekins",
+        "detail": "Preheat your oven to 425°F (220°C). Generously butter the inside of 6 ramekins, making sure to coat every surface. Dust with cocoa powder, tapping out any excess. This coating ensures the cakes will release perfectly after baking and adds a subtle chocolate note to the exterior. Place the prepared ramekins on a baking sheet for easy handling."
+      },
+      {
+        "heading": "Melt the Chocolate and Butter",
+        "detail": "Combine the dark chocolate and butter in a heatproof bowl set over a pot of gently simmering water (double boiler method). Stir occasionally until completely melted and smooth. Be careful not to let the bowl touch the water or overheat, which can cause the chocolate to seize. Remove from heat and let cool slightly while you prepare the eggs."
+      },
+      {
+        "heading": "Whisk the Eggs and Sugar",
+        "detail": "In a large bowl, combine the whole eggs, egg yolks, and powdered sugar. Whisk vigorously for 2-3 minutes until the mixture becomes pale, thick, and doubled in volume. This step incorporates air that will help the cakes rise slightly while maintaining the gooey center. The mixture should fall in a thick ribbon when you lift the whisk."
+      },
+      {
+        "heading": "Combine the Mixtures",
+        "detail": "Gently fold the slightly cooled chocolate mixture into the egg mixture using a spatula. Fold slowly and carefully with a cutting and turning motion, scraping from the bottom, until just combined. Be gentle to avoid deflating the air you've incorporated into the eggs, which is crucial for the perfect texture."
+      },
+      {
+        "heading": "Add the Dry Ingredients",
+        "detail": "Sift the flour and salt directly over the chocolate-egg mixture. Fold gently until no streaks of flour remain and the batter is smooth and uniform. Be careful not to overmix, which can develop gluten and make the cakes tough rather than tender and delicate. The batter should be thick and glossy."
+      },
+      {
+        "heading": "Fill and Bake",
+        "detail": "Divide the batter evenly among the prepared ramekins, filling each about 3/4 full. Bake for 12-14 minutes exactly - the timing is critical for lava cakes. The edges should be set and pulling away slightly from the sides, but the centers should still look slightly soft and underdone when gently shaken."
+      },
+      {
+        "heading": "Rest and Unmold",
+        "detail": "Let the cakes rest in the ramekins for exactly 1 minute. This brief rest allows them to set just enough to hold their shape while keeping the centers molten. Run a thin knife around the edges to loosen, then carefully invert each ramekin onto a dessert plate. Give the ramekin a gentle shake if needed to release."
+      },
+      {
+        "heading": "Serve Immediately",
+        "detail": "Serve the lava cakes immediately while they're still warm. The moment of truth comes when you cut into them - the outer cake should be perfectly baked while the center flows out like liquid chocolate. A scoop of vanilla ice cream on the side provides a cool, creamy contrast to the warm, rich cake. Dust with powdered sugar if desired."
+      }
+    ],
+    "chefTip": "The key to perfect lava cakes is precise timing and temperature. For foolproof results, you can prepare the batter in advance and refrigerate the filled ramekins for up to 24 hours before baking. If baking straight from the refrigerator, add 2-3 minutes to the baking time. For an extra-special touch, place a square of high-quality chocolate in the center of each ramekin before adding the batter - this guarantees a molten center even if you slightly overbake them. Always use the best quality chocolate you can find; it makes all the difference.",
+    "nutrition": {
+      "calories": 480,
+      "protein": "8g",
+      "carbs": "32g",
+      "fat": "36g",
+      "fiber": "3g",
+      "sodium": "140mg"
+    }
   },
   {
     "id": 7,
@@ -60,7 +336,62 @@
     "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop",
     "prepTime": "90 mins",
     "servings": 4,
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "ingredients": [
+      "For dough: 500g '00' flour, 325ml warm water, 10g salt, 3g active dry yeast",
+      "For topping: 400g San Marzano tomatoes, 250g fresh mozzarella, fresh basil leaves, extra virgin olive oil, salt to taste"
+    ],
+    "instructions": [
+      {
+        "heading": "Activate the Yeast",
+        "detail": "In a small bowl, dissolve the active dry yeast in the warm water (around 95°F or 35°C). Let it sit for 5-10 minutes until foamy and fragrant. This foam indicates the yeast is alive and active, which is essential for a good rise. If the mixture doesn't foam, your yeast may be dead and you should start over with fresh yeast."
+      },
+      {
+        "heading": "Mix the Dough",
+        "detail": "In a large bowl, combine the '00' flour and salt. Make a well in the center and pour in the yeast mixture. Using a fork, gradually incorporate the flour into the liquid until a shaggy dough forms. '00' flour is finely ground and has the perfect protein content for achieving that chewy, elastic Neapolitan crust."
+      },
+      {
+        "heading": "Knead the Dough",
+        "detail": "Turn the dough out onto a clean work surface and knead for 10-12 minutes until smooth, elastic, and passes the windowpane test (when you stretch a small piece, it becomes thin enough to see light through without tearing). This develops the gluten structure that will trap gases during fermentation, creating those characteristic air bubbles in the crust."
+      },
+      {
+        "heading": "First Rise",
+        "detail": "Place the kneaded dough in a lightly oiled bowl, cover with plastic wrap or a damp kitchen towel, and let rise at room temperature for 2 hours or until doubled in size. This slow fermentation develops complex flavors and creates a more digestible, flavorful crust than quick-rising methods."
+      },
+      {
+        "heading": "Divide and Second Rise",
+        "detail": "Gently deflate the risen dough and divide it into 4 equal pieces (about 200g each). Shape each piece into a tight ball by pulling the edges underneath and pinching to seal. Place the balls on a lightly floured tray, cover, and let rise for another 2 hours. This second rest relaxes the gluten, making the dough easier to stretch later."
+      },
+      {
+        "heading": "Prepare the Oven",
+        "detail": "At least 45 minutes before baking, place a pizza stone or steel in your oven and preheat to the highest possible temperature (500°F/260°C or higher). The intense heat is crucial for achieving that authentic puffy, leopard-spotted crust in just 90 seconds. A home oven can't match a wood-fired oven's 900°F, but a preheated stone helps significantly."
+      },
+      {
+        "heading": "Prepare the Toppings",
+        "detail": "While the oven heats, prepare your toppings. Crush the San Marzano tomatoes by hand or with a fork, then drain off any excess liquid to prevent a soggy pizza. Tear the fresh mozzarella into small pieces and let it drain on paper towels. Have your basil leaves and olive oil ready. The simplicity of Margherita means each ingredient must be perfect."
+      },
+      {
+        "heading": "Shape the Pizza",
+        "detail": "On a lightly floured surface, gently press one dough ball into a disk. Using your fingertips, stretch the dough while rotating, working from the center outward and leaving a slightly thicker rim for the crust. Alternatively, gently stretch by draping over your knuckles. The goal is a thin center (about 1/8 inch) with a puffy border. Avoid using a rolling pin, which pushes out all the precious air bubbles."
+      },
+      {
+        "heading": "Top and Bake",
+        "detail": "Transfer the stretched dough to a lightly floured pizza peel. Quickly top with a thin layer of crushed tomatoes, a pinch of salt, and scattered mozzarella pieces. Work fast so the dough doesn't stick. Slide the pizza onto the hot stone and bake for 90 seconds to 2 minutes until the crust is puffed, charred in spots, and the cheese is bubbly and just starting to brown."
+      },
+      {
+        "heading": "Finish and Serve",
+        "detail": "Remove the pizza from the oven and immediately top with fresh basil leaves and a generous drizzle of extra virgin olive oil. The heat from the pizza will slightly wilt the basil, releasing its aroma. Let rest for 1 minute before slicing and serving. The perfect Margherita needs nothing else - it's a celebration of its few, high-quality ingredients."
+      }
+    ],
+    "chefTip": "The secret to authentic Neapolitan pizza at home is all about technique and ingredient quality. Use only San Marzano tomatoes grown in the volcanic soil near Mount Vesuvius - they're sweeter and less acidic than other varieties. For the cheese, use fresh mozzarella di bufala if available, but drain it well on paper towels for at least an hour before using to prevent a soggy crust. If you don't have a pizza stone, try baking on an inverted baking sheet preheated in the oven. And remember, less is more when it comes to toppings - a sparse hand allows the crust to shine.",
+    "nutrition": {
+      "calories": 520,
+      "protein": "18g",
+      "carbs": "68g",
+      "fat": "18g",
+      "fiber": "4g",
+      "sodium": "980mg"
+    }
   },
   {
     "id": 8,
@@ -69,7 +400,59 @@
     "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400&h=300&fit=crop",
     "prepTime": "40 mins",
     "servings": 4,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "ingredients": [
+      "500g chicken breast or firm tofu, cubed",
+      "2 tbsp green curry paste",
+      "400ml coconut milk",
+      "1 cup chicken or vegetable broth",
+      "1 cup bamboo shoots",
+      "1 red bell pepper, sliced",
+      "1 cup Thai basil leaves",
+      "2 kaffir lime leaves",
+      "1 tbsp fish sauce (or soy sauce)",
+      "1 tsp palm sugar",
+      "2 tbsp coconut oil"
+    ],
+    "instructions": [
+      {
+        "heading": "Bloom the Curry Paste",
+        "detail": "Heat coconut oil in a large pot or wok over medium heat. Add the green curry paste and cook for 2-3 minutes, stirring constantly, until incredibly fragrant. This step, called 'blooming,' is crucial - it cooks out the raw harshness of the spices and garlic while infusing the oil with deep, complex flavors that form the backbone of your curry."
+      },
+      {
+        "heading": "Crack the Coconut Milk",
+        "detail": "Add about 1/2 cup of the coconut milk to the bloomed curry paste. Stir and let it cook until the coconut milk starts to separate, with oil shimmering on the surface. This technique, known as 'cracking' the coconut milk, intensifies the flavor and creates a richer, more luxurious curry base than simply adding all the liquid at once."
+      },
+      {
+        "heading": "Cook the Protein",
+        "detail": "Add your choice of chicken or tofu to the pot and cook until lightly browned on all sides, about 3-4 minutes. The protein will absorb the aromatic curry flavors as it cooks. If using tofu, be gentle when stirring to prevent it from crumbling."
+      },
+      {
+        "heading": "Build the Curry",
+        "detail": "Pour in the remaining coconut milk, broth, kaffir lime leaves, fish sauce, and palm sugar. Stir well to combine and bring to a gentle simmer. The kaffir lime leaves add an unmistakable citrusy aroma, while the palm sugar balances the heat and saltiness with a subtle sweetness. Let it simmer for 15 minutes to allow all the flavors to meld together beautifully."
+      },
+      {
+        "heading": "Add the Vegetables",
+        "detail": "Add the bamboo shoots and sliced red bell pepper to the simmering curry. Cook for another 5 minutes until the vegetables are tender but still retain some crispness and vibrant color. The bamboo shoots provide a pleasant crunch and absorb the curry flavors, while the bell pepper adds sweetness and visual appeal."
+      },
+      {
+        "heading": "Finish with Thai Basil",
+        "detail": "Remove the pot from heat and stir in the fresh Thai basil leaves just before serving. The residual heat will wilt them slightly, releasing their distinctive anise-like aroma. Thai basil is more stable than sweet basil and holds up better in hot dishes, adding a fresh, peppery note that brightens the entire curry."
+      },
+      {
+        "heading": "Serve",
+        "detail": "Remove the kaffir lime leaves before serving (they're not meant to be eaten). Serve the curry hot with plenty of jasmine rice to soak up the fragrant sauce. The rice provides a neutral base that lets the complex, spicy, creamy curry shine. Garnish with extra Thai basil leaves if desired."
+      }
+    ],
+    "chefTip": "Making your own green curry paste elevates this dish from good to extraordinary. While store-bought paste works in a pinch, homemade paste has brighter, more complex flavors. Toast whole spices like coriander and cumin seeds before grinding, and use fresh galangal, lemongrass, and makrut lime leaves for authentic aroma. If you must use store-bought paste, fry it in coconut cream until fragrant before adding other ingredients - this dramatically improves the flavor. For extra richness, use only the thick cream from the top of the coconut milk can for frying the paste.",
+    "nutrition": {
+      "calories": 415,
+      "protein": "28g",
+      "carbs": "12g",
+      "fat": "29g",
+      "fiber": "3g",
+      "sodium": "680mg"
+    }
   },
   {
     "id": 9,
@@ -78,7 +461,64 @@
     "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&h=300&fit=crop",
     "prepTime": "20 mins",
     "servings": 4,
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "2 tbsp sugar",
+      "2 tsp baking powder",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "2 cups buttermilk",
+      "2 large eggs",
+      "1/4 cup melted butter",
+      "1 tsp vanilla extract",
+      "1 1/2 cups fresh blueberries",
+      "Butter for cooking",
+      "Maple syrup for serving"
+    ],
+    "instructions": [
+      {
+        "heading": "Mix the Dry Ingredients",
+        "detail": "In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt until well combined. Whisking not only mixes the ingredients evenly but also aerates the flour, contributing to lighter pancakes. Make a well in the center of the dry ingredients for the wet mixture."
+      },
+      {
+        "heading": "Combine the Wet Ingredients",
+        "detail": "In a separate bowl or large measuring cup, whisk together the buttermilk, eggs, melted butter, and vanilla extract until smooth and well blended. The buttermilk's acidity reacts with the baking soda to create extra lift, resulting in exceptionally fluffy pancakes. Ensure your melted butter has cooled slightly so it doesn't cook the eggs."
+      },
+      {
+        "heading": "Create the Batter",
+        "detail": "Pour the wet ingredients into the well of dry ingredients. Stir gently with a spatula or wooden spoon until just combined - it's okay if there are a few small lumps. Overmixing develops gluten, which will make your pancakes tough and rubbery rather than tender and fluffy. Let the batter rest for 5 minutes while you heat your pan."
+      },
+      {
+        "heading": "Add the Blueberries",
+        "detail": "Gently fold 1 cup of the fresh blueberries into the batter with just a few strokes. Be careful not to crush the berries, which would turn the batter purple. The remaining 1/2 cup will be added to the pancakes as they cook, ensuring every pancake is loaded with beautiful, intact berries that burst with juice when you bite into them."
+      },
+      {
+        "heading": "Heat the Griddle",
+        "detail": "Place a griddle or large non-stick skillet over medium heat and add a pat of butter. Let it melt and sizzle until foamy but not browned. The butter adds flavor and helps create those crispy, golden edges that contrast perfectly with the fluffy interior. Wipe off any burnt butter and start with fresh butter between batches if needed."
+      },
+      {
+        "heading": "Cook the Pancakes",
+        "detail": "Pour about 1/4 cup of batter onto the hot griddle for each pancake, leaving space between them for spreading. Immediately sprinkle some of the reserved blueberries onto each pancake, pressing them in gently. Cook until bubbles form on the surface and the edges look set, about 2-3 minutes. The bubbles indicate that the pancake is cooked enough on the bottom to flip."
+      },
+      {
+        "heading": "Flip and Finish",
+        "detail": "Flip the pancakes carefully with a thin spatula and cook for another 1-2 minutes until golden brown on the second side and cooked through. The second side cooks faster because the pancake is already hot. The pancakes should be puffed up, golden, and spring back lightly when touched in the center."
+      },
+      {
+        "heading": "Serve Warm",
+        "detail": "Serve the pancakes immediately while hot, with butter and warm maple syrup. Stack them high on plates and watch the syrup cascade down the sides, mingling with the juicy blueberry pockets. For the best experience, warm your maple syrup slightly before serving - it soaks into the pancakes more beautifully and enhances the flavor."
+      }
+    ],
+    "chefTip": "For the fluffiest pancakes of your life, separate the eggs and whip the whites. Add the egg yolks to the wet ingredients as usual, but beat the egg whites separately until stiff peaks form, then gently fold them into the finished batter. This extra step incorporates air and creates incredibly light, soufflé-like pancakes. Also, let your batter rest for 10-15 minutes before cooking - this allows the gluten to relax and the starch to absorb liquid, resulting in more tender pancakes. For perfectly even browning, wipe your pan clean and use fresh butter between batches.",
+    "nutrition": {
+      "calories": 380,
+      "protein": "9g",
+      "carbs": "52g",
+      "fat": "15g",
+      "fiber": "3g",
+      "sodium": "590mg"
+    }
   },
   {
     "id": 10,
@@ -87,6 +527,56 @@
     "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&h=300&fit=crop",
     "prepTime": "25 mins",
     "servings": 2,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "ingredients": [
+      "2 salmon fillets (6 oz each), skin on",
+      "2 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "For lemon butter sauce: 4 tbsp butter, 2 garlic cloves minced, 2 tbsp lemon juice, 1 tbsp fresh parsley chopped",
+      "For vegetables: 2 cups mixed seasonal vegetables (asparagus, zucchini, bell peppers)"
+    ],
+    "instructions": [
+      {
+        "heading": "Preheat the Grill",
+        "detail": "Preheat your grill to medium-high heat, aiming for about 375-400°F (190-200°C). Clean the grates thoroughly and oil them well to prevent sticking. A properly preheated grill ensures beautiful sear marks and prevents the delicate salmon from adhering to the grates. If using charcoal, arrange for two-zone cooking with coals on one side only."
+      },
+      {
+        "heading": "Prepare the Salmon",
+        "detail": "Pat the salmon fillets completely dry with paper towels - this is essential for achieving crispy skin. Brush both sides with olive oil and season generously with salt and freshly ground black pepper. Let the salmon sit at room temperature for 10-15 minutes while you prepare the vegetables, which promotes even cooking."
+      },
+      {
+        "heading": "Prepare the Vegetables",
+        "detail": "Toss your mixed seasonal vegetables with olive oil, salt, and pepper in a bowl. Cut them into uniform sizes to ensure even cooking. Vegetables like asparagus, zucchini slices, and bell pepper strips work beautifully. Consider using a grill basket for smaller vegetables to prevent them from falling through the grates."
+      },
+      {
+        "heading": "Start Grilling the Salmon",
+        "detail": "Place the salmon fillets skin-side down on the hot grill at a 45-degree angle to create attractive crosshatch marks if desired. Close the lid and cook for 4-6 minutes without moving them. The skin will crisp up and release easily from the grates when it's properly cooked - if it sticks, it needs more time."
+      },
+      {
+        "heading": "Grill the Vegetables",
+        "detail": "While the salmon cooks on the first side, add your prepared vegetables to the grill. Turn them occasionally and cook for 5-7 minutes total until tender-crisp with nice char marks. Different vegetables may cook at different rates - remove them as they're done to prevent overcooking."
+      },
+      {
+        "heading": "Flip the Salmon",
+        "detail": "Carefully flip the salmon fillets using a thin spatula. Cook for another 3-4 minutes with the lid closed, depending on thickness. The salmon is done when it flakes easily with a fork and reaches an internal temperature of 145°F (63°C) at the thickest part. Be careful not to overcook - salmon continues cooking slightly after removal from heat."
+      },
+      {
+        "heading": "Make the Lemon Butter Sauce",
+        "detail": "While the salmon finishes cooking, prepare the sauce in a small saucepan over medium heat. Melt the butter, then add the minced garlic and cook for 1 minute until fragrant but not browned. Remove from heat and stir in fresh lemon juice and chopped parsley. The bright, tangy sauce perfectly complements the rich, fatty salmon."
+      },
+      {
+        "heading": "Rest and Serve",
+        "detail": "Remove the salmon and vegetables from the grill and let the salmon rest for 2-3 minutes. This brief rest allows the juices to redistribute throughout the fish. Serve the salmon with the grilled vegetables alongside, and drizzle generously with the lemon butter sauce. Garnish with extra fresh parsley and lemon wedges if desired."
+      }
+    ],
+    "chefTip": "The key to perfectly grilled salmon is mastering the skin. For extra-crispy skin, score it lightly with a sharp knife in a crosshatch pattern, being careful not to cut into the flesh. This allows fat to render and prevents the skin from curling. Always place salmon skin-side down first and don't move it until it releases naturally - if you try to flip too early, the skin will tear and stick. For the most even cooking, choose fillets of uniform thickness. If your fillets are uneven, fold the thinner tail end under itself to create a more even thickness.",
+    "nutrition": {
+      "calories": 520,
+      "protein": "38g",
+      "carbs": "8g",
+      "fat": "36g",
+      "fiber": "3g",
+      "sodium": "380mg"
+    }
   }
 ]
