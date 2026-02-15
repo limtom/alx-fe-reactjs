@@ -15,7 +15,7 @@ function AddRecipeForm() {
       setTitle("");
       setInstruction("");
     } else {
-      setError(true);
+      setErrors(true);
       return;
     }
   }
