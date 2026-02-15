@@ -7,6 +7,7 @@ import {
 import HomePage from "./components/HomePage";
 import RootLayout from "./components/RootLayout";
 import RecipeDetail from "./components/RecipeDetail";
+import AddRecipeForm from "./components/AddRecipeForm";
 
 function App() {
   const router = createBrowserRouter(
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<RootLayout />}>
         <Route index element={<HomePage />} />
         <Route path=":id" element={<RecipeDetail />} />
+        <Route path="addRecipe" element={<AddRecipeForm />} />
       </Route>,
     ),
   );

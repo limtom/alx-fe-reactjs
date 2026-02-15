@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const currentPage = useLocation();
   const [search, setSearch] = useState("");
 
   return (
@@ -29,10 +31,20 @@ function Navbar() {
           />
         </div>
 
-        <button className="flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-full font-medium transition-all shadow-lg shadow-primary/20 hover:shadow-primary/40 transform hover:-translate-y-0.5">
-          <span className="material-icons-round text-sm">add</span>
-          <span>Add Recipe</span>
-        </button>
+        {currentPage.pathname === "/" ? (
+          <Link to="/addRecipe">
+            <button className="flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-full font-medium transition-all shadow-lg shadow-primary/20 hover:shadow-primary/40 transform hover:-translate-y-0.5">
+              <span className="material-icons-round text-sm">add</span>
+              <span>Add Recipe</span>
+            </button>
+          </Link>
+        ) : (
+          <Link to="/">
+            <button className="text-gray-500 hover:text-gray-900 border-0 transition-colors text-sm font-medium">
+              Cancel
+            </button>
+          </Link>
+        )}
       </div>
     </nav>
   );
