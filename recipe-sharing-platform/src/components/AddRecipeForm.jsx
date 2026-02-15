@@ -4,6 +4,8 @@ function AddRecipeForm() {
   const [title, setTitle] = useState("");
   const [ingredient, setIngredient] = useState([]);
   const [instruction, setInstruction] = useState([]);
+  const [error, setError] = useState(false);
+  let validate;
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -12,7 +14,10 @@ function AddRecipeForm() {
       setIngredient("");
       setTitle("");
       setInstruction("");
-    } else return;
+    } else {
+      setError(true);
+      return;
+    }
   }
   return (
     <div className="max-w-7xl mx-auto px-6">
