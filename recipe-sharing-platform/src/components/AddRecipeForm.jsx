@@ -4,7 +4,7 @@ function AddRecipeForm() {
   const [title, setTitle] = useState("");
   const [ingredient, setIngredient] = useState([]);
   const [instruction, setInstruction] = useState([]);
-  const [error, setError] = useState(false);
+  const [errors, setErrors] = useState(false);
   let validate;
 
   function handleSubmit(e) {
