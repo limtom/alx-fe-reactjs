@@ -19,7 +19,7 @@ function AddRecipeForm() {
       <h2 className="text-4xl text-black font-bold text-center capitalize my-16">
         share your favorite recipe
       </h2>
-      <form className="max-w-2xl mx-auto">
+      <form className="max-w-2xl mx-auto" onSubmit={handleSubmit}>
         <div className="space-y-2">
           <label className="block text-sm font-bold text-gray-900 dark:text-gray-200 mb-1">
             Recipe Title
@@ -86,7 +86,6 @@ function AddRecipeForm() {
           <button
             className="w-full md:w-auto bg-primary hover:bg-primary-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2"
             type="submit"
-            onClick={handleSubmit}
           >
             <span>Publish Recipe</span>
             <span className="material-icons-round text-sm">arrow_forward</span>
