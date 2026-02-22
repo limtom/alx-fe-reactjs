@@ -20,7 +20,10 @@ const PostsComponent = () => {
     isError,
     refetch,
     isFetching,
-  } = useQuery("posts", fetchPosts);
+  } = useQuery("posts", fetchPosts, {
+    staleTime: 30000, // Data considered fresh for 30 seconds
+    cacheTime: 300000, // Cache for 5 minutes
+  });
 
   // Handle loading state
   if (isLoading) {
