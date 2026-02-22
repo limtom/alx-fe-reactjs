@@ -4,6 +4,7 @@ function RegistrationForm() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState(false);
 
   // function handleChange(e) {
   //   const { name, value } = e.target;
@@ -11,6 +12,12 @@ function RegistrationForm() {
   // }
 
   function handleSubmit(e) {
+    if (!username || !email || password) {
+      setError(true);
+    }
+
+    if (error) return;
+
     e.preventDefault();
     console.log({ username, email, password });
   }
