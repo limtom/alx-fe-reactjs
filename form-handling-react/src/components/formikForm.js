@@ -2,6 +2,7 @@ import { Field, Form, Formik } from "formik";
 import * as yup from "yup";
 
 // Validation Schema using Yup
+// string().required
 const basicSchema = yup.object().shape({
   username: yup
     .string()
