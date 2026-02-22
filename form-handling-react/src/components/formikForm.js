@@ -1,16 +1,14 @@
 import { Field, Form, Formik } from "formik";
-import * as yup from "yup";
+import * as Yup from "yup";
 
 // Validation Schema using Yup
 // string().required
-const basicSchema = yup.object().shape({
-  username: yup
-    .string()
+const basicSchema = Yup.object().shape({
+  username: Yup.string()
     .min(3, { message: "must be at least 3 characters" })
     .required("Required"),
-  email: yup.string().email("Please enter a valid email").required("required"),
-  password: yup
-    .string()
+  email: Yup.string().email("Please enter a valid email").required("required"),
+  password: Yup.string()
     .min(5)
     .matches(
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
