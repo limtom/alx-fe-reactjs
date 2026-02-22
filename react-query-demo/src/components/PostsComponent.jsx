@@ -17,6 +17,7 @@ const PostsComponent = () => {
     data: posts,
     isLoading,
     error,
+    isError,
     refetch,
     isFetching,
   } = useQuery("posts", fetchPosts);
