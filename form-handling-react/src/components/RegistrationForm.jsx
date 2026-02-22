@@ -1,22 +1,20 @@
 import { useState } from "react";
 
 function RegistrationForm() {
-  const [formData, setformData] = useState({
-    username: "",
-    email: "",
-    password: "",
-  });
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  function handleChange(e) {
-    const { name, value } = e.target;
-    setformData((prev) => ({ ...prev, [name]: value }));
-  }
+  // function handleChange(e) {
+  //   const { name, value } = e.target;
+  //   setformData((prev) => ({ ...prev, [name]: value }));
+  // }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    setformData({ username: "", email: "", password: "" });
-    console.log(formData);
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   setformData({ username: "", email: "", password: "" });
+  //   console.log(formData);
+  // }
 
   return (
     <form className="flex flex-col justify-center" onSubmit={handleSubmit}>
@@ -34,7 +32,7 @@ function RegistrationForm() {
           className="w-full"
           required
           value={formData.username}
-          onChange={handleChange}
+          onChange={(e) => setUsername(e.target.value)}
         />
       </div>
       <div className="flex flex-col gap-1 mb-3">
@@ -48,7 +46,7 @@ function RegistrationForm() {
           className="w-full"
           value={formData.email}
           required
-          onChange={handleChange}
+          onChange={(e) => setEmail(e.target.value)}
         />
       </div>
       <div className="flex flex-col gap-1 mb-3">
@@ -62,7 +60,7 @@ function RegistrationForm() {
           className="w-full"
           value={formData.password}
           required
-          onChange={handleChange}
+          onChange={(e) => setPassword(e.target.value)}
         />
       </div>
       <input
