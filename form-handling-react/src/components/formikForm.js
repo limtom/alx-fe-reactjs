@@ -2,8 +2,6 @@ import { Field, Form, Formik } from "formik";
 import * as yup from "yup";
 
 // Validation Schema using Yup
-const passwordRules =
-  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 const basicSchema = yup.object().shape({
   username: yup
     .string()
@@ -13,7 +11,10 @@ const basicSchema = yup.object().shape({
   password: yup
     .string()
     .min(5)
-    .matches(passwordRules, { message: "Please create a stronger password" })
+    .matches(
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+      { message: "Please create a stronger password" },
+    )
     .required(),
 });
 
