@@ -1,101 +1,121 @@
-import { useFormik } from "formik";
+import { Field, Form, Formik, useFormik } from "formik";
 import { basicSchema } from "../schemas";
 
-function onSubmit() {
-  console.log("submitted");
+function onSubmit(values, { setSubmitting, resetForm }) {
+  // Simulate API call
+  setTimeout(() => {
+    console.log("Form values:", values);
+    alert("Form submitted successfully!");
+    setSubmitting(false);
+    resetForm();
+  }, 1000);
 }
 
-function FormikForm() {
-  const { values, errors, touched, handleChange, handleBlur, handleSubmit } =
-    useFormik({
-      initialValues: {
-        username: "",
-        email: "",
-        password: "",
-      },
-      validationSchema: basicSchema,
-      onSubmit,
-    });
-
-  console.log(errors);
+// Custom Input Component with Error Styling
+const CustomInput = ({ field, form: { touched, errors }, ...props }) => {
+  const hasError = touched[field.name] && errors[field.name];
 
   return (
-    <form className="flex flex-col justify-center" onSubmit={handleSubmit}>
-      <h2 className="text-center text-3xl text-orange-500 mb-5">
-        Registration Form
-      </h2>
-      <div className="flex flex-col gap-1 mb-3">
-        <label htmlFor="username" className="">
-          Username
-        </label>
-        <input
-          type="text"
-          name="username"
-          placeholder="Username"
-          className={`w-full p-2 border rounded ${
-            errors.username && touched.username
-              ? "ring-2 ring-red-500 focus:ring-red-500 border-red-300"
-              : "focus:ring-2 focus:ring-blue-500 focus:border-blue-300"
-          }`}
-          required
-          value={values.username}
-          onChange={handleChange}
-          onBlur={handleBlur}
-        />
-        {errors.username && touched.username && (
-          <p className="text-sm text-red-600 font-light">{errors.username}</p>
-        )}
-      </div>
-      <div className="flex flex-col gap-1 mb-3">
-        <label htmlFor="email" className="">
-          Email
-        </label>
-        <input
-          type="text"
-          name="email"
-          placeholder="Input email"
-          className={`w-full p-2 border rounded ${
-            errors.email && touched.email
-              ? "ring-2 ring-red-500 focus:ring-red-500 border-red-300"
-              : "focus:ring-2 focus:ring-blue-500 focus:border-blue-300"
-          }`}
-          required
-          value={values.email}
-          onChange={handleChange}
-          onBlur={handleBlur}
-        />
-        {errors.email && touched.email && (
-          <p className="text-sm text-red-600 font-light">{errors.email}</p>
-        )}
-      </div>
-      <div className="flex flex-col gap-1 mb-3">
-        <label htmlFor="password" className="">
-          Password
-        </label>
-        <input
-          type="password"
-          name="password"
-          placeholder="Input password"
-          className={`w-full p-2 border rounded ${
-            errors.password && touched.password
-              ? "ring-2 ring-red-500 focus:ring-red-500 border-red-300"
-              : "focus:ring-2 focus:ring-blue-500 focus:border-blue-300"
-          }`}
-          required
-          value={values.password}
-          onChange={handleChange}
-          onBlur={handleBlur}
-        />
-        {errors.password && touched.password && (
-          <p className="text-sm text-red-600 font-light">{errors.password}</p>
-        )}
-      </div>
+    <div className="mb-4">
       <input
-        type="submit"
-        value="Submit"
-        className="py-2 px-4 border-0 rounded-lg bg-orange-400 text-white justify-self-center"
+        {...field}
+        {...props}
+        className={`w-full p-2 border rounded transition-all duration-200 ${
+          hasError
+            ? "ring-2 ring-red-500 border-red-500 focus:ring-red-500"
+            : "focus:ring-2 focus:ring-blue-500 focus:border-blue-300"
+        }`}
       />
-    </form>
+      <ErrorMessage name={field.name}>
+        {(errorMessage) => (
+          <div className="text-red-500 text-sm mt-1">{errorMessage}</div>
+        )}
+      </ErrorMessage>
+    </div>
+  );
+};
+
+function FormikForm() {
+  return (
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+      <h2 className="text-2xl font-bold mb-6 text-center">Registration Form</h2>
+
+      <Formik
+        initialValues={{
+          username: "",
+          email: "",
+          password: "",
+        }}
+        validationSchema={basicSchema}
+        onSubmit={onSubmit}
+      >
+        {({ isSubmitting, errors, touched }) => (
+          <Form>
+            {/* Username Field */}
+            <div className="mb-4">
+              <label
+                htmlFor="username"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Username
+              </label>
+              <Field
+                name="username"
+                type="text"
+                placeholder="Enter your username"
+                component={CustomInput}
+              />
+            </div>
+
+            {/* Email Field */}
+            <div className="mb-4">
+              <label
+                htmlFor="email"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Email
+              </label>
+              <Field
+                name="email"
+                type="email"
+                placeholder="Enter your email"
+                component={CustomInput}
+              />
+            </div>
+
+            {/* Password Field */}
+            <div className="mb-6">
+              <label
+                htmlFor="password"
+                className="block text-gray-700 font-medium mb-2"
+              >
+                Password
+              </label>
+              <Field
+                name="password"
+                type="password"
+                placeholder="Enter your password"
+                component={CustomInput}
+              />
+            </div>
+
+            {/* Submit Button */}
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className={`w-full py-2 px-4 rounded font-medium text-white 
+                ${
+                  isSubmitting
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-blue-500 hover:bg-blue-600 transition-colors"
+                }`}
+            >
+              {isSubmitting ? "Submitting..." : "Register"}
+            </button>
+          </Form>
+        )}
+      </Formik>
+    </div>
   );
 }
 
