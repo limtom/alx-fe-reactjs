@@ -1,0 +1,77 @@
+import { useState } from "react";
+
+function RegistrationForm() {
+  const [formData, setformData] = useState({
+    username: "",
+    email: "",
+    password: "",
+  });
+
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setformData((prev) => ({ ...prev, [name]: value }));
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setformData({ username: "", email: "", password: "" });
+    console.log(formData);
+  }
+
+  return (
+    <form className="flex flex-col justify-center" onSubmit={handleSubmit}>
+      <h2 className="text-center text-3xl text-orange-500 mb-5">
+        Registration Form
+      </h2>
+      <div className="flex flex-col gap-1 mb-3">
+        <label htmlFor="username" className="">
+          Username
+        </label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          className="w-full"
+          required
+          value={formData.username}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="flex flex-col gap-1 mb-3">
+        <label htmlFor="email" className="">
+          Email
+        </label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Input email"
+          className="w-full"
+          value={formData.email}
+          required
+          onChange={handleChange}
+        />
+      </div>
+      <div className="flex flex-col gap-1 mb-3">
+        <label htmlFor="password" className="">
+          Password
+        </label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Input password"
+          className="w-full"
+          value={formData.password}
+          required
+          onChange={handleChange}
+        />
+      </div>
+      <input
+        type="submit"
+        value="Submit"
+        className="py-2 px-4 border-0 rounded-lg bg-orange-400 text-white justify-self-center"
+      />
+    </form>
+  );
+}
+
+export default RegistrationForm;
