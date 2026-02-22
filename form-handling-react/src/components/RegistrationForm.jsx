@@ -10,11 +10,10 @@ function RegistrationForm() {
   //   setformData((prev) => ({ ...prev, [name]: value }));
   // }
 
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   setformData({ username: "", email: "", password: "" });
-  //   console.log(formData);
-  // }
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log({ username, email, password });
+  }
 
   return (
     <form className="flex flex-col justify-center" onSubmit={handleSubmit}>
@@ -31,7 +30,7 @@ function RegistrationForm() {
           placeholder="Username"
           className="w-full"
           required
-          value={formData.username}
+          value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
       </div>
@@ -44,7 +43,7 @@ function RegistrationForm() {
           name="email"
           placeholder="Input email"
           className="w-full"
-          value={formData.email}
+          value={email}
           required
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -58,7 +57,7 @@ function RegistrationForm() {
           name="password"
           placeholder="Input password"
           className="w-full"
-          value={formData.password}
+          value={password}
           required
           onChange={(e) => setPassword(e.target.value)}
         />
